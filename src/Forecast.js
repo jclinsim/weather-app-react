@@ -29,7 +29,11 @@ export default function Forecast() {
         </div>
       </div>
       <br />
-      <small>Coded by Johanna Lingard</small>
+      <small>
+        <a href="https://github.com/jclinsim/weather-app-react">
+          Coded by Johanna Lingard
+        </a>
+      </small>
     </div>
   );
 }
