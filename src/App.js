@@ -1,16 +1,19 @@
-import "./App.css";
+import React from "react";
 import Weather from "./Weather";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="App">
-          <Weather />
-        </div>
-      </header>
+      <div className="container">
+        <Weather defaultCity="Sydney" />
+
+        <footer>
+          <a href="https://github.com/jclinsim/weather-app-react">
+            Coded by Johanna Lingard
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
