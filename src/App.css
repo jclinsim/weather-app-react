@@ -26,21 +26,23 @@
 }
 
 .Weather .temperature {
-  font-weight: bold;
+  font-weight: bolder;
   color: rgb(33, 33, 33);
   font-size: 40px;
   font-weight: 400;
+  padding: 55px;
 }
 
 .unit {
-  font-size: 20px;
-  font-weight: 50;
+  font-size: 35px;
+  font-weight: lighter;
 }
 
 footer {
   font-size: 10px;
 }
 
-img {
-  padding: 20px;
+.WeatherInfo canvas {
+  font-size: 40px;
+  padding: 55px;
 }
